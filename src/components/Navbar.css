@@ -1,0 +1,59 @@
+
+
+.navbar{
+    display: flex;
+    height: 15vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Developer{
+    margin-left: 5%;
+    display: flex;
+}
+
+.Developer img{
+    width: 3vw;
+    margin-right: 10%;
+}
+
+.navbar>.Developer>h1{
+    color: white;
+}
+
+.navbar .nav_links{
+    display: flex;
+    margin-right: 20%;
+    gap: 25%;
+    font-size: larger;
+    list-style: none;
+}
+
+.navbar .nav_links li {
+    display: flex;
+}
+
+.navbar .nav_links li img{
+    margin-right: 10%;
+}
+
+.navbar .nav_links a:hover{
+    color: #E27627;
+ }
+ 
+.navbar .nav_links a{
+     color: white;
+     text-decoration: none;
+     transition: 0.5s;
+ }
+
+
+
+
+
+
+
+ 
+
+

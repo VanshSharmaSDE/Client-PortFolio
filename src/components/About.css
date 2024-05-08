@@ -1,0 +1,151 @@
+.left .imgSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left .imgSection .circle{
+    position: relative;
+    margin-top: 10%;
+    width: 24vw;
+    height: 45vh;
+    background-color: #E27627;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.circle2>img{
+    width: 24vw;
+    height: 45vh;
+    object-fit: cover;
+    overflow: hidden;
+    position: absolute;
+    z-index: 99;
+}
+
+.left .imgSection .circle2{
+    position: absolute;
+    margin-top: 8%;
+    margin-right: 4%;
+    width: 24vw;
+    height: 45vh;
+    background-color: #2F2D2D;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.left .imgSection .circle2 img{
+    position: absolute;
+    width: 24vw;
+    height: 45vh;
+}
+
+.right2{
+         width: 100%;
+        height: 50vh;
+}
+
+.right2 .aboutMeSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right2 .aboutMeSection>h1{
+    font-size: 60px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 25%;
+  color: #E27627;
+}
+
+.right2 .aboutMeSection>p{
+  margin-bottom: 5%;
+  font-size: 25px;
+  color: white;
+  line-height: 1.3;
+}
+
+.right2 .aboutMeSection button{
+    background-color: #E27627;
+    color: white;
+    border: none;
+    width: 12vw;
+    height: 7vh;
+    font-weight: 400;
+    font-size: larger;
+    margin-right: 78%;
+    border-radius: 17px;
+    border: 5px solid white;
+    transition: 0.5s;
+}
+
+.right2 .aboutMeSection button:hover{
+    transform: scale(1.2);
+    background-color: white;
+    border: 5px solid #E27627;
+    color: #E27627;
+ }
+
+
+
+ @media ((min-width:200px) and (max-width:850px)){
+
+    
+
+    .left{
+        position: absolute;
+    }
+
+    .left .imgSection{
+        margin-left: 22%;
+    }
+
+    .left .imgSection .circle{
+        width: 60vw;
+        height: 30vh;
+    }
+    
+    .circle2>img{
+        width: 60vw;
+        height: 30vh;
+    }
+    
+    .left .imgSection .circle2{
+        width: 60vw;
+        height: 30vh;
+    }
+    
+    .left .imgSection .circle2 img{
+        width: 60vw;
+        height: 30vh;
+    }
+
+    .right2{
+        position: absolute;
+        top: 80%;
+    }
+
+    .right2 .aboutMeSection>h1{
+      font-size: 60px;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      margin-right: 5%;
+      color: #E27627;
+    }
+
+    .right2 .aboutMeSection>p{
+        font-size: 15px;
+        margin: 2%;
+      }
+
+      .right2 .aboutMeSection button{
+        width: 30vw;
+        height: 7vh;
+        margin-right: 58%;
+        margin-top: 2%;
+        margin-bottom: 7%;
+    }
+
+ }
